@@ -1,0 +1,9 @@
+<settings>
+    <category label="RetroDECK">
+        <setting id="retrodeck_flatpak_id" type="text" label="ID del Flatpak de RetroDECK" default="net.retrodeck.retrodeck"/>
+        <setting id="minimize_kodi" type="bool" label="Minimizar Kodi mientras RetroDECK está abierto" default="true"/>
+    </category>
+    <category label="Avanzado">
+        <setting id="debug_logging" type="bool" label="Registro de depuración en kodi.log" default="false"/>
+    </category>
+</settings>
