@@ -1,0 +1,11 @@
+[B]1.0.2[/B]
+- El addon aparece ahora en Juegos Y en Programas (provides: game executable).
+- Necesario para poder añadirlo como acceso directo en la skin Confluence, que no tiene seccion Juegos.
+
+[B]1.0.1[/B]
+- El addon pasa de la seccion Programas a la seccion Juegos (provides: executable -> game).
+- Sin cambios funcionales.
+
+[B]1.0.0[/B]
+- Primera version. Lanza RetroDECK (flatpak run net.retrodeck.retrodeck), minimiza Kodi via libwnck del host (XIconifyWindow ICCCM, lo unico que funciona con Marco/MATE) y la restaura al salir.
+- Funciona con Kodi nativo y Kodi Flatpak (flatpak-spawn --host).
