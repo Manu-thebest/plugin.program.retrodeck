@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.retrodeck" name="RetroDECK Launcher" version="1.0.3" provider-name="Manu">
+<addon id="plugin.program.retrodeck" name="RetroDECK Launcher" version="1.0.4" provider-name="Manu">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
+        <provides>video game</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
@@ -12,6 +12,6 @@
         <summary lang="en_GB">Launches RetroDECK (Flatpak) minimizing Kodi</summary>
         <description lang="es_ES">Lanzador simple de RetroDECK instalado como Flatpak. Al abrirlo minimiza la ventana de Kodi, ejecuta RetroDECK y, al salir de RetroDECK, restaura y activa de nuevo la ventana de Kodi. Mismo comportamiento que el addon de Moonlight.</description>
         <description lang="en_GB">Simple launcher for the RetroDECK Flatpak. On open it minimizes the Kodi window, runs RetroDECK and, when RetroDECK exits, restores and focuses the Kodi window again. Same behaviour as the Moonlight addon.</description>
-        <news>1.0.3: Se revierte a la sección Programas (provides executable) — el experimento con la sección Juegos no funcionó bien con la skin Confluence. 1.0.2: provides game executable. 1.0.1: El addon pasa de la sección Programas a la sección Juegos (provides executable → game). Sin cambios funcionales. 1.0.0: Primera versión. Lanza RetroDECK (flatpak run net.retrodeck.retrodeck), minimiza Kodi vía libwnck del host (XIconifyWindow ICCCM, lo único que funciona con Marco/MATE) y la restaura al salir. Funciona con Kodi nativo y Kodi Flatpak (flatpak-spawn --host).</news>
+        <news>1.0.4: provides video game, copiando la estructura de IAGL — aparece en Juegos y en Add-ons de vídeo (así Confluence puede usarlo como acceso directo). 1.0.3: Se revierte a la sección Programas (provides executable) — el experimento con la sección Juegos no funcionó bien con la skin Confluence. 1.0.2: provides game executable. 1.0.1: El addon pasa de la sección Programas a la sección Juegos (provides executable → game). Sin cambios funcionales. 1.0.0: Primera versión. Lanza RetroDECK (flatpak run net.retrodeck.retrodeck), minimiza Kodi vía libwnck del host (XIconifyWindow ICCCM, lo único que funciona con Marco/MATE) y la restaura al salir. Funciona con Kodi nativo y Kodi Flatpak (flatpak-spawn --host).</news>
     </extension>
 </addon>
